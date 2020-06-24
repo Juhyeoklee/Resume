@@ -1,0 +1,191 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+  color: #6ab67d;
+}
+a:visited {
+  text-decoration: none;
+  color: #6ab67d;
+}
+body {
+  background-color: rgb(242, 238, 238);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  background: #6ab67d;
+  color: #d2f2e9;
+  height: 100%;
+  overflow-y: auto;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 20em;
+  right: 0;
+  font-weight: bold;
+}
+
+#header > nav {
+  width: 100%;
+}
+
+#header > nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header > nav ul li {
+  border-top: solid 2px rgb(255, 250, 234);
+  display: block;
+  padding: 0;
+}
+
+#header > nav ul li a {
+  transition: none;
+  border: 0;
+  color: #ffffff !important;
+  display: block;
+  padding: 0.85em 0;
+  text-decoration: none;
+}
+
+#header > nav ul li a.active {
+  background: #fff;
+  color: #6ab67d !important;
+}
+
+#header > nav ul li:first-child {
+  border-top: 0;
+}
+
+#about {
+  margin-top: 3em;
+  margin-left: 0em;
+}
+
+#about h2 {
+  margin-top: 1em;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about h4 {
+  margin-top: 1em;
+  font-size: 20px;
+}
+#about li {
+  font-size: 20px;
+}
+
+#about p {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#project {
+  margin-top: 3em;
+  margin-left: 0em;
+  font-weight: bold;
+}
+
+#project h2 {
+  margin-top: 1em;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+#project ul li {
+  border-color: #a6d3b1;
+  border-style: solid;
+  border-width: 10px;
+  padding: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#project #p-name {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#pages {
+  margin-top: 3em;
+  margin-left: 0em;
+  font-weight: bold;
+}
+
+#pages h2 {
+  margin-top: 1em;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+#pages table {
+}
+#pages td {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#wrapper {
+  padding-left: 2em;
+}
+
+#wrapper h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #6ab67d;
+  color: #ffffff;
+  z-index: 10;
+}
+
+#wrapper h3 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 20px;
+  width: 100%;
+  background-color: #6ab67d;
+  color: #ffffff;
+  font-size: 40px;
+  z-index: 10;
+}
+
+.image {
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  position: relative;
+}
+
+/* Wrapper */
+
+#wrapper {
+  background: #fff;
+}
+
+/* Main */
+
+#main > section {
+  border-top: solid 6px #f4f4f4;
+}
+
+#main > section > .container {
+  padding: 6em 0 4em 0;
+}
+
+#main > section:first-child {
+  border-top: 0;
+}
