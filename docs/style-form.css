@@ -1,0 +1,103 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(242, 238, 238);
+}
+
+form {
+  background-color: white;
+  margin-right: 10em;
+  align-content: center;
+  padding-top: 5em;
+  padding-left: 16em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  border-radius: 5px;
+}
+form legend {
+  text-align: center;
+}
+form label {
+  font-weight: bold;
+}
+input {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-color: #284830;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 300px;
+  height: 20px;
+}
+
+textarea {
+  width: 360px;
+  height: 100px;
+}
+button {
+  margin-left: 13em;
+  padding: 2em;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#form-section {
+  margin-top: 6em;
+  margin-left: 0em;
+  padding-top: 3em;
+}
+
+#form-section h2 {
+  margin-top: 1em;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form-section h4 {
+  margin-top: 1em;
+  font-size: 20px;
+}
+#form-section li {
+  font-size: 20px;
+}
+#wrapper {
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+#wrapper h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #6ab67d;
+  color: #ffffff;
+  z-index: 10;
+}
+
+#wrapper h3 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 20px;
+  width: 100%;
+  background-color: #6ab67d;
+  color: #ffffff;
+  font-size: 40px;
+  z-index: 10;
+}
+/* Wrapper */
+
+#wrapper {
+  background: #6ab67d;
+}

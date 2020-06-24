@@ -51,6 +51,10 @@ body {
   padding: 0.85em 0;
   text-decoration: none;
 }
+#header > nav ul li a:hover {
+  background: #fff;
+  color: #6ab67d !important;
+}
 
 #header > nav ul li a.active {
   background: #fff;
